@@ -14,7 +14,7 @@ if(romblock):
 ramblock = memory.getBlock(toAddr(0x600000))
 if(not ramblock):
 	ramblock = memory.createUninitializedBlock("ram1", toAddr(0x600000), 0x200000, False)
-ramblock.
+
 # Set Registers:
 context = currentProgram.getProgramContext()
 r13 = context.getRegister("r13")
