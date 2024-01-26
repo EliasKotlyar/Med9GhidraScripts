@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language_definitions>
+  <language processor="PowerPC"
+            endian="big"
+            size="32"
+            variant="MED9"
+            version="1.5"
+            slafile="ppc_32_be.sla"
+            processorspec="ppc_32.pspec"
+            manualindexfile="../manuals/PowerPC.idx"
+            id="PowerPC:BE:32:MED9">
+    <description>MED9</description>
+    <compiler name="default" spec="ppc_32_med9_be.cspec" id="default"/>
+    <external_name tool="gnu" name="powerpc:common"/>
+    <external_name tool="IDA-PRO" name="ppc"/>
+    <external_name tool="DWARF.register.mapping.file" name="ppc.dwarf"/>
+  </language>
+</language_definitions>
