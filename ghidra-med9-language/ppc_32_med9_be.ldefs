@@ -12,6 +12,7 @@
             id="PowerPC:BE:32:MED9">
     <description>MED9</description>
     <compiler name="default" spec="ppc_32_med9_be.cspec" id="default"/>
+	<compiler name="no_globals" spec="ppc_32_med9_no_globals.cspec" id="no_globals"/>
     <external_name tool="gnu" name="powerpc:common"/>
     <external_name tool="IDA-PRO" name="ppc"/>
     <external_name tool="DWARF.register.mapping.file" name="ppc.dwarf"/>
