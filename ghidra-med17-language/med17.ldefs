@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language_definitions>
+<language processor="tricore"
+            endian="little"
+            size="32"
+            variant="med17"
+            version="1.3"
+            slafile="tricore.sla"
+            processorspec="tc179x.pspec"
+	    manualindexfile="../manuals/tricore.idx"
+            id="tricore:LE:32:med17">
+    <description>MED17</description>
+    <compiler name="default" spec="med17.cspec" id="default"/>
+    <external_name tool="DWARF.register.mapping.file" name="tricore.dwarf"/>
+  </language>
+</language_definitions>
